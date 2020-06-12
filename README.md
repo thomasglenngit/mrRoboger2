@@ -23,12 +23,13 @@ _In this application, a user inputs a number. The output includes all numbers up
 * This will open the application in your web-browser.
 * Once opened, enter your name in the name field, and any number in the number field. (Warning, your number entry will include all numbers from 0 up to, and including, your number...)
 * Enjoy the result!
+* Alternatively, view this application on your web browser at: https://thomasglenngit.github.io/mrRoboger2
 
 No additional servers, software, databases or other codes or applications are necessary to run this software.
 
 ## Known Bugs:
 
-All of them.
+No known bugs. But, suggestions welcome.
 
 ## Support and contact details
 

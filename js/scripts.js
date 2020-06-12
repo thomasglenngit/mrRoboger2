@@ -2,8 +2,9 @@
 function userArray(userNumber) {
   let array = [];
   for (index = 0; index <= userNumber; index++) {
-    var words = index.toString();
-    array.push(words);
+    const words = index.toString();
+    if (words.includes(1))
+    array.push(index);
   }
     return array;
 }

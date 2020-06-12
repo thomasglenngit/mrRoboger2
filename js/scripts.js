@@ -3,13 +3,14 @@ function userArray(userNumber) {
   let array = [];
   for (index = 0; index <= userNumber; index++) {
     const words = index.toString();
+
     if (words.includes(1))
-    array.push(index);
+    return (array + array.push("Beep!"));
   }
-    return array;
+    // return array;
 }
 
-console.log();
+console.log("This is the end of the array.");
 
 
 // this is user-interface logic

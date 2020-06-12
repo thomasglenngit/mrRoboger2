@@ -11,14 +11,14 @@ _In this application, a user inputs a number. The output includes all numbers up
 | Spec |      Input    |  Output |
 |:----------|:-------------|:------|
 | Return the name and input number from the user | "Joe Blow" 2 | "Joe Blow" 2 |
-|Return an array from the user's input number | 4 | 0, 1, 2, 3, 4 |
+| Return an array from the user's input number | 4 | 0, 1, 2, 3, 4 |
 | Replace all numbers containing a 1 with "Beep!" |  31 | "Beep!" |
 | Replace all numbers containing a 2 with "Boop!" |   1002  |  "Boop!" |
 | Replace all numbers containing a 3 with "Won't you be my neighbour?" | 23 |  "Won't you be my neighbour?" |
 
 ## Setup/Installation Requirements
 
-* Clone file from https://github.com/thomasglenngit/mrRoboger2 as a zip file. 
+* Clone file from https://github.com/thomasglenngit/mrRoboger2 as a .zip file. 
 * When .zip file appears in your desktop, click on file called, "index.html".
 * This will open the application in your web-browser.
 * Once opened, enter your name in the name field, and any number in the number field. (Warning, your number entry will include all numbers from 0 up to, and including, your number...)

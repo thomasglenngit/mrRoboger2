@@ -9,8 +9,9 @@
 _In this application, a user inputs a number. The output includes all numbers up to and including the user's number with substitutions on particular numbers._
 
 | Spec |      Input    |  Output |
-|----------|:-------------:|------:|
-| Replace all numbers containing a 1 with "Beep!" |  31 | "Beep! |
+|:----------|:-------------|:------|
+|Return an array from the user's input number | 4 | 0, 1, 2, 3, 4 |
+| Replace all numbers containing a 1 with "Beep!" |  31 | "Beep!" |
 | Replace all numbers containing a 2 with "Boop!" |   1002  |  "Boop!" |
 | Replace all numbers containing a 3 with "Won't you be my neighbour?" | 23 |  "Won't you be my neighbour?" |
 
@@ -24,9 +25,9 @@ _In this application, a user inputs a number. The output includes all numbers up
 
 No additional servers, software, databases or other codes or applications are necessary to run this software.
 
-## Known Bugs
+## Known Bugs:
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+All of them.
 
 ## Support and contact details
 

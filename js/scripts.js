@@ -1,19 +1,18 @@
 // this is business logic
-userArray = [];
-for (i=0; i<=userNumber; i++);
-  let robogerArray = userArray[i];
+function userArray(userNumber) {
+  let array = [];
+  for (index = 0; index <= userNumber; index += 1);
+    let robogerArray = array[index];
 
-if (robogerArray.includes(1)) {
-  robogerArray.replace("Beep!");
-} else if (robogerArray.includes(2)) {
-  robogerArray.replace("Boop!");
-} else if (robogerArray.includes(3)) {
-  robogerArray.replace("Won't you be my neighbour?");
-} else {
-  return robogerArray;
+  if (robogerArray < 10) {
+    robogerArray.show();
+  }
+    return array;
 }
+console.log("here is where the result should be.");
 
-console.log();
+
+
 
 // this is user-interface logic
 $(document).ready(function() {
@@ -21,11 +20,14 @@ $(document).ready(function() {
     event.preventDefault();
     let userName = $("#name").val();
     let userNumber = parseInt($("#number").val());
+    let result = userArray(userNumber);
 
     $(".name").text(userName);
-    $(".number").text(userNumber):
+    $(".number").text(result);
+// 
+    
+// 
 
-    let result = 
 
     $("#output").show();
   });

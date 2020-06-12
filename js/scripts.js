@@ -1,8 +1,9 @@
 // // this is business logic
 function userArray(userNumber) {
   let array = [];
-  for (index = 0; index <= userNumber; index += 1) {
-    array.push(userNumber);
+  for (index = 0; index <= userNumber; index++) {
+    var words = index.toString();
+    array.push(words);
   }
     return array;
 }

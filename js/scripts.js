@@ -31,7 +31,7 @@ $(document).ready(function() {
 
     $(".name").text(userName);
     $(".number").text(result);
-
+    $(".intro").hide();
 
     $("#output").show();
   });

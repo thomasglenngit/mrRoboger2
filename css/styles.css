@@ -26,9 +26,14 @@ p {
 }
 body {
   font-family: sans-serif;
-
+  background-color: lavender;
 }
-
+.form-group {
+  width: 400px;
+}
+ul li {
+  font-size: 25px;
+}
 .name {
  font-weight: bold;
 }

@@ -18,38 +18,48 @@
   color: white;
   
 }
+
+.btn-info {
+  
+  margin: 20px;
+}
+
 h1 {
   font-size: 60px;
 }
+
 p {
   font-size: 25px;
 }
+
 body {
   font-family: sans-serif;
   background-color: lavender;
 }
+
 .form-group {
   width: 400px;
 }
+
 ul li {
   font-size: 25px;
 }
+
 .name {
  font-weight: bold;
 }
 
 .number {
   float: left;
-  
 }
+
 img {
   float: left;
   width: 400px;
   margin: 30px;
-
 }
+
 #output {
   display: none;
   float: left;
- 
 }

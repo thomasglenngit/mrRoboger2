@@ -1,6 +1,6 @@
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://www.thomas-glenn.com/wp-content/uploads/2019/02/TG-at-Columbia-University-Julianne-Brasher-photo-credit-copy.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.insideedition.com/sites/default/files/images/2018-03/032318-mrrogers-1280x720.jpg");
   height: 500px;
   background-position: top;
   background-repeat: no-repeat;
@@ -19,81 +19,8 @@
   
 }
 
-button {
-  /* text-align: left;
-  position: absolute;
-  top: 80%;
-  left: 10%;
-  transform: translate(-50%, -50%); */
-  color: rgb(98, 0, 255);
-  /* float: right; */
-}
-p.one {
-  float: left;
-  width: 30%;
-  margin: 10px;
-  border: 2px;
-  padding: 2px;
-  
-}
-
-p.two {
-  float: left;
-  
-  width: 30%;
-  margin: 10px;
-  border: 2px;
-  padding: 2px;
-}
-
-p.three {
-  float: left;
-
-  width: 30%;
-  margin: 10px;
-  border: 2px;
-  padding: 2px;
-}
-
-p.four {
-  float: left;
-  clear: left;
-  width: 30%;
-  margin: 10px;
-  border: 2px;
-  padding: 2px;
-}
-
-p.five {
-  float: left;
-  width: 30%;
-  margin: 10px;
-  border: 2px;
-  padding: 2px;
-
-}
-
-
-h1 {
-
-}
-
-h2 {
-
-
-}
-
-h3 {
-
-
-}
-
-.form-group {
-  width: 50%;
-}
-
 body {
-
+  font-family: sans-serif;
 
 }
 

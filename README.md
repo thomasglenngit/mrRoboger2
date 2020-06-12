@@ -1,12 +1,12 @@
 # _Mr. Roboger Part 2 - the Canadian Edition_
 
-#### _An array maniputlation exercise for code review at Epicodus School,  June 12th, 2020_
+#### _An array-manipulation exercise for code review at Epicodus School:  June 12th, 2020_
 
-#### By _**Thomas Glenn**_
+#### by **Thomas Glenn**
 
 ## Description
 
-_In this application, a user inputs a number. The output includes all numbers up to and including the user's number with substitutions on particular numbers._
+_In this application, a user inputs a number. The output includes all numbers up to, and including the user's number with substitutions on particular numbers._
 
 | Spec |      Input    |  Output |
 |:----------|:-------------|:------|
@@ -29,7 +29,7 @@ No additional servers, software, databases or other codes or applications are ne
 
 ## Known Bugs:
 
-No known bugs. But, suggestions welcome.
+This page has a link to a French version that doesn't always work. I'm still trying to figure that one out... French version: https://thomasglenngit.github.io/monsieurR
 
 ## Support and contact details
 

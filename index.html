@@ -14,48 +14,84 @@
 <body>
   <div class="hero-image">
     <div class="hero-text">
-      <h1>Mr. Roboger's Neighborhood</h1>
-      <p>Fun with Imaginary numbers!</p>
+      <h1>Mr.</h1>
+      <h1>Roboger's</h1>
+      <h1>Neighborhood</h1>
       <br>
-      
+      <h2>Fun with Imaginary numbers!</h2>
+      <br>
+
     </div>
   </div>
   <br>
   <br>
   <br>
+  <div class="container">
+
+
+    <!-- this is code for inputting user info text fields in a form (madlibs): -->
     <div class="container">
-      
-      
-      <!-- this is code for inputting user info text fields in a form (madlibs): -->
-      <div class="container">
-        <h1>Hello, Friend.</h1>
-        <h1>Please enter a number that we can change into a list of magic numbers from the land of Make-Believe!</h1>
-        <div>
-          <form id="formOne">
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input id="name" class="form-control" type="text">
-            </div>
-          
-            <div class="form-group">
-              <label for="number">Your number:</label>
-              <input id="number" class="form-control" type="text">
-            </div>
-  
-            <button type="submit" class="btn">Show me the magic numbers</button>
-          </form>
-        </div>
-  
-        <div id="output">
-          <h1>Your magic numbers:</h1>
-          <p>
-  Dear, <span class="name"></span>. Thanks, for playing! Remember that you are special and that there is no one in the world quite like you. Because you are so special, here is your magic number from the land of make-believe: <br><span class="number"></span>.
-  </p>
-        </div>
+      <h2>"Hello, Friend. I'm so glad you decided to visit!"</h2>
+      <p> Today, we're learning about counting and the fun we can have with numbers!</p>
+      <p>...</p>
+      <p>"What's that?... You have your own, very special, favourite number?"</p>
+      <p>"Well, I would love to know what that number is. Please enter your <strong>name</strong> and your very special
+        <strong>number</strong> so that we can change it into a list of magic numbers from the land of
+        <em>Make-Believe!"</em></p>
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="number">Your number:</label>
+            <input id="number" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Show me the magic numbers</button>
+        </form>
       </div>
 
 
+      <div id="output">
+
+        <div class="row">
+          <div class="col-md-6" id="col1">
+            <p>
+              Dear, <span class="name"></span>.
+            </p>
+            <p>
+              Thanks, for playing! Remember that you are special and that there is no
+              one
+              in the world quite like you.
+            </p>
+            <p>Because you are so special, here is your magic number from the land of
+              make-believe:
+            </p>
+        </div>
+        <div class="col-md-6" id="col2">
+          <img src="img/ladyElaineFairchild.jpg">
+        </div>
+      </div>
+
+        
+          <div class="row">
+            <div class="col-md-6" id="col3">
+              <h3><strong>Your magic numbers:</strong></h3>
+              <span class="number"></span>
+            </div>
+            <div class="col-md-6" id="col4">
+              <img src="img/surprisedChild.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
+
+  </div>
 </body>
 
 </html>

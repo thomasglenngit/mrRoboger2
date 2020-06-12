@@ -1,6 +1,6 @@
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.insideedition.com/sites/default/files/images/2018-03/032318-mrrogers-1280x720.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(175, 99, 99, 0.5)), url("https://www.insideedition.com/sites/default/files/images/2018-03/032318-mrrogers-1280x720.jpg");
   height: 500px;
   background-position: top;
   background-repeat: no-repeat;
@@ -12,19 +12,39 @@
 .hero-text {
   text-align: lefts;
   position: absolute;
-  top: 40%;
-  left: 25%;
-  transform: translate(-50%, -50%);
+  top: 20%;
+  left: 10%;
+  /* transform: translate(-50%, -50%); */
   color: white;
   
 }
-
+h1 {
+  font-size: 60px;
+}
+p {
+  font-size: 25px;
+}
 body {
   font-family: sans-serif;
 
 }
 
+.name {
+ font-weight: bold;
+}
+
+.number {
+  float: left;
+  
+}
+img {
+  float: left;
+  width: 400px;
+  margin: 30px;
+
+}
 #output {
   display: none;
-
+  float: left;
+ 
 }

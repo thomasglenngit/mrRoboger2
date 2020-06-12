@@ -1,0 +1,103 @@
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://www.thomas-glenn.com/wp-content/uploads/2019/02/TG-at-Columbia-University-Julianne-Brasher-photo-credit-copy.jpeg");
+  height: 500px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+.hero-text {
+  text-align: lefts;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: white;
+  
+}
+
+button {
+  /* text-align: left;
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  transform: translate(-50%, -50%); */
+  color: rgb(98, 0, 255);
+  /* float: right; */
+}
+p.one {
+  float: left;
+  width: 30%;
+  margin: 10px;
+  border: 2px;
+  padding: 2px;
+  
+}
+
+p.two {
+  float: left;
+  
+  width: 30%;
+  margin: 10px;
+  border: 2px;
+  padding: 2px;
+}
+
+p.three {
+  float: left;
+
+  width: 30%;
+  margin: 10px;
+  border: 2px;
+  padding: 2px;
+}
+
+p.four {
+  float: left;
+  clear: left;
+  width: 30%;
+  margin: 10px;
+  border: 2px;
+  padding: 2px;
+}
+
+p.five {
+  float: left;
+  width: 30%;
+  margin: 10px;
+  border: 2px;
+  padding: 2px;
+
+}
+
+
+h1 {
+
+}
+
+h2 {
+
+
+}
+
+h3 {
+
+
+}
+
+.form-group {
+  width: 50%;
+}
+
+body {
+
+
+}
+
+#output {
+  display: none;
+
+}

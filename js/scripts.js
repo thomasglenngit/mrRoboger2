@@ -3,11 +3,10 @@ function userArray(userNumber) {
   let array = [];
   for (index = 0; index <= userNumber; index++) {
     const words = index.toString();
-    array.push(words)
-
-   
-    if (words.includes(1))
-    array.push("Beep!")
+    
+    if (words.includes(1)) {
+      array.push(array.push("Beep!"));
+    }
   
    }
    return array;

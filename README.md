@@ -1,28 +1,28 @@
-# _{Application Name}_
+# _Mr. Roboger Part 2 - the Canadian Edition_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _An array maniputlation exercise for code review at Epicodus School,  June 12th, 2020_
 
-#### By _**{List of contributors}**_
+#### By _**Thomas Glenn**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_In this application, a user inputs a number. The output includes all numbers up to and including the user's number with substitutions on particular numbers._
 
-| Tables   |      Are      |  Cool |
+| Spec |      Input    |  Output |
 |----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+| Replace all numbers containing a 1 with "Beep!" |  31 | "Beep! |
+| Replace all numbers containing a 2 with "Boop!" |   1002  |  "Boop!" |
+| Replace all numbers containing a 3 with "Won't you be my neighbour?" | 23 |  "Won't you be my neighbour?" |
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* Clone file from https://github.com/thomasglenngit/mrRoboger2 as a zip file. 
+* When .zip file appears in your desktop, click on file called, "index.html".
+* This will open the application in your web-browser.
+* Once opened, enter your name in the name field, and any number in the number field. (Warning, your number entry will include all numbers from 0 up to, and including, your number...)
+* Enjoy the result!
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+No additional servers, software, databases or other codes or applications are necessary to run this software.
 
 ## Known Bugs
 
@@ -30,14 +30,18 @@ _{Are there issues that have not yet been resolved that you want to let users kn
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+For information, questions, or advice (I really do seek it...), please message me via my github or LinkedIn profile:
+
+https://github.com/thomasglenngit
+https://www.linkedin.com/in/glennergy/
+
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+.HTML, .CSS, .Bootstrap-3.4.1., jQuery-3.5.1, JavaScript, VisualStudioCode, GitHub, Google Chrome DevTools
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*This application is licensed under the MIT license.*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2020 **_Thomas Glenn_**

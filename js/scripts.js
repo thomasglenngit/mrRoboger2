@@ -4,6 +4,7 @@ function userArray(userNumber) {
   for (index = 0; index <= userNumber; index++) {
     const words = index.toString();
 
+
     if (words.includes(3)) {
       array.push("Won't you be my neighbour?");
     } else if (words.includes(2)) {
@@ -32,7 +33,8 @@ $(document).ready(function() {
     $("#output").show();
     $(".name").text(userName);
     $(".number").text(result);
-
+    
+    $(".intro").hide();
   });
   
 });

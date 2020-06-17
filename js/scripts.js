@@ -26,13 +26,14 @@ $(document).ready(function() {
   $("#formOne").submit(function(event) {
     event.preventDefault();
     let userName = $("#name").val();
-    let userNumber = ($("#number").val());
+    let userNumber = $("#number").val();
     let result = userArray(userNumber);
-
+    
+    $("#output").show();
     $(".name").text(userName);
     $(".number").text(result);
-    $(".intro").hide();
 
-    $("#output").show();
   });
+  
 });
+

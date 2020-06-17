@@ -10,7 +10,7 @@
 }
 
 .hero-text {
-  text-align: lefts;
+  text-align: left;
   position: absolute;
   top: 20%;
   left: 10%;
@@ -20,7 +20,6 @@
 }
 
 .btn-info {
-  
   margin: 20px;
 }
 

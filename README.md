@@ -1,4 +1,4 @@
-# _Mr. Roboger Part 2 - the Canadian Edition_
+# _Mr. Roboger Part 2_
 
 #### _An array-manipulation exercise for code review at Epicodus School:  June 12th, 2020_
 
@@ -30,7 +30,12 @@ No additional servers, software, databases or other codes or applications are ne
 
 ## Known Bugs:
 
-This page has a link to a French version that doesn't always work. I'm still trying to figure that one out... French version: https://thomasglenngit.github.io/monsieurR
+This page had a link to a French version that doesn't work, but worked pretty well going from the French to English version. I'm still trying to figure that one out... French version: https://thomasglenngit.github.io/monsieurR. 
+
+It doesn't work, so I got rid of it. 
+
+I have been trying to find out a way to filter out non-numeric entries and have come up short. However, I've left code in the document (coded-out) that I thought should work, but haven't been able to get it to do so. If you have any advice, please let me know.
+
 
 ## Support and contact details
 

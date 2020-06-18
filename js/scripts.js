@@ -4,7 +4,11 @@ function userArray(userNumber) {
   for (index = 0; index <= userNumber; index++) {
     const words = index.toString();
 
-
+    // if (words.match(/[a-zA-Z]/i) || words === " "){
+    //   alert("Please enter a number.");
+    //   return false;
+    // }
+  
     if (words.includes(3)) {
       array.push("Won't you be my neighbour?");
     } else if (words.includes(2)) {
@@ -21,7 +25,6 @@ function userArray(userNumber) {
 }
 
 
-
 // this is user-interface logic
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
@@ -29,6 +32,9 @@ $(document).ready(function() {
     let userName = $("#name").val();
     let userNumber = $("#number").val();
     let result = userArray(userNumber);
+
+    $("#name").val("");
+    $("#number").val("");
     
     $("#output").show();
     $(".name").text(userName);
